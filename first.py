@@ -1,6 +1,6 @@
 ###Personal note reminder: The double "##" means that part works
 
-#Firts steps on python =)
+#Firts steps on python
 
 ##print( 7%(5//2) )
 ##print( (3**2)//2 )
@@ -83,6 +83,33 @@
 ##y = int(str(y) + "2")
 ##print(y)
 
-x = 3
-num = 17
-print(num % x)
+##x = 3
+##num = 17
+##print(num % x)
+
+###############################################################################
+###############################################################################
+
+
+#We start the journal of loops and statements (if, for, while, break,etc)
+#if with else 
+
+##number = int(input("Enter a number: "))
+
+##if number < 10:
+	##print("Bad choice boy, ending program")
+##else:
+	##print("Good choice boy, continue the journal")
+
+#note: the if statement can be nest, one inside other
+#and "Indetation" is the white line or space in the code like
+#if expression < example
+###print()
+
+#simple club problem, only people who are 18 or older are allowed
+##age = int(input("Enter your age: "))
+##name = input("Write your name: ")
+##if age >= 18:
+	##print("Welcome " + name)
+##else:
+	##print("Sorry, you're not 18 years old")
