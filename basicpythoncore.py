@@ -113,3 +113,42 @@
 	##print("Welcome " + name)
 ##else:
 	##print("Sorry, you're not 18 years old")
+#note: every if condition block only can handle one else statement. We can
+#chain more if to complete, but we have the option " elif " (stand for if else)
+
+#example chain
+##if X = 1:
+#	print()
+#else:
+##	if X = 2
+#else: 
+	#if
+
+#with elif
+#if X = 1:
+#print()
+#elif X = 2
+#print()
+#elif X = 3
+#print()
+#else:
+#print("error")
+
+
+#27/09/2022
+
+#Booleans operators and other things
+#Operators: and, or, not
+
+#basic examples
+
+#weight_kg = int(intput())
+
+#if weight_kg >= 50 and weight_kg <= 100:
+	#print("You're healthy") 
+
+#type = input()
+#if type == "Debit" or type == "Credit":
+#	print("accepted")
+
+#The list in python works similar to bash. So we skip writting that.
