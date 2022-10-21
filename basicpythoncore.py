@@ -26,8 +26,7 @@
 #for new lines =  \n 
 #and other uses.And we can use triple quote that automatically add new
 #lines for strings example:
-##print("""there are 
-#multiple
+##print("""there are
 #lines""")
 
 #Strings operations
@@ -152,3 +151,115 @@
 #	print("accepted")
 
 #The list in python works similar to bash. So we skip writting that.
+#For example the count, start from 0 like:
+#list_example = [banana, pear, fish, apple, car, horse, 7]
+#				[0, 1, 2, 3, 4, 5, 6] 
+#example of list with numbers
+##num = [5, 4, 3, [2], 1]
+##print(num[0])
+##print(num[3][0])
+##print(num[5])
+#An error appears for the line 4, the list don't have anything in the place 5
+
+#list operations
+#we can reassign values in the lists like:
+#num = [1, 2, 3 , 4, 5]
+#num[0] = 10
+#print(num[0]) 
+
+##words=["hello"]
+##words.append("world")
+##print(words[1])
+
+##nums = [9,8,7,6,5]
+##nums.append(4)
+##nums.insert(0,10)
+##print(len(nums))
+##print(nums)
+
+# in operators to check for words, true if the item appears into the list and
+#false if it doesn't
+#words=["spam","egg","sausage"]
+#print("spam" in words)
+#Returns "True" because appears.
+
+
+
+##i=3
+##while i>=0:
+##	print(i)
+##	i=i-1
+##i=5
+
+#while loop with break
+#Note: we can't use break outside of the block because this throw an error.
+##while True:
+##	print(i)
+##	i=i-1
+##	if i<=2:
+##		break
+
+#Unlike break, with have continue statement, the another side.
+#This statement stop the current iteration and continue with another
+#
+#i=0
+##while i<5:
+##	i+=1
+##	if i==3:
+##		print("Skipping 3")
+##		continue
+##		print(i)
+
+
+#for loops
+#The for loop is used to iterate over a given sequence
+#basic example
+
+##words = ["hello", "world", "spam", "milk"]
+##for word in words:
+	##print("¡" + word + "!")
+
+#The word variable represents the corresponding item of th elist.
+
+
+##list =[2,3,4,5,6,7]
+##for x in list:
+##	if(x%2==1 and x>4):
+##		print(x)
+##		break
+
+##range operator
+
+##nums = list(range(5))
+##print(nums[4])
+
+##we have a third operator, called the step
+
+##nums = list(range(3,15,3))
+##print(nums)
+##print(nums[3])
+
+##list =[1,1,2,3,5,8,13]
+##print(list[list[4]])
+##outpot 8
+
+##for i in range(10):
+##	if not i % 2 == 0:
+##		print(i+1)
+
+
+##if 1+1 == 2:
+##	if 2*2 == 8:
+##		print("if")
+##	else:
+##		print("else")
+
+
+##letters = ['x','y', 'z']
+##letters.insert(1,'w')
+##print(letters[2])
+
+##list = [1,2,3]
+##for var in list:
+##	print(var)
+
